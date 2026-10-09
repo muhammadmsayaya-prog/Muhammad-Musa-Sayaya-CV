@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Musa Sayaya | Computer Science Education Student</title>
+<meta name="description" content="Portfolio of Muhammad Musa Sayaya, Computer Science Education student at Umaru Musa Yar'Adua University and aspiring software developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14232b;--muted:#4d5f68;--bg:#f2f6f5;--card:#ffffff;--navy:#12315c;--green:#1f7a5a;--line:#cfdcd8;box-sizing:border-box}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+a{color:var(--navy)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header.hero{background:var(--navy);color:#fff;padding:56px 0 48px}
+.hero h1{font:800 clamp(2.2rem,8vw,3.6rem)/1.05 Fraunces,Georgia,serif;margin:0 0 14px;letter-spacing:-.01em}
+.hero p.role{font-size:1.1rem;margin:0 0 22px;color:#d6e4f2;max-width:34em}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:11px 18px;border-radius:8px;font-weight:600;text-decoration:none;border:2px solid #fff;color:#fff}
+.btn.main{background:#fff;color:var(--navy)}
+nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+nav .wrap{display:flex;gap:18px;overflow-x:auto;padding-top:12px;padding-bottom:12px}
+nav a{white-space:nowrap;text-decoration:none;color:var(--muted);font-weight:500;font-size:.95rem}
+nav a:hover{color:var(--green)}
+section{padding:42px 0 6px}
+h2{font:600 1.7rem/1.2 Fraunces,Georgia,serif;margin:0 0 14px;color:var(--navy)}
+h3{margin:0 0 4px;font-size:1.1rem}
+.card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--green);border-radius:10px;padding:20px;margin-bottom:16px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:12px 0 0;list-style:none}
+.tags li{background:#e4efec;color:#0f4a37;border-radius:999px;padding:4px 12px;font-size:.88rem;font-weight:500}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.skills div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+.skills h3{font-size:1rem}
+.skills p{margin:0;color:var(--muted);font-size:.95rem}
+ul.plain{padding-left:20px;margin:8px 0}
+.contact a{display:block;padding:12px 0;border-bottom:1px solid var(--line);font-weight:500;overflow-wrap:anywhere}
+.me{width:112px;height:112px;border-radius:50%;object-fit:cover;border:4px solid #fff;margin:0 0 18px;display:block;background:#2a4a78}
+figure{margin:0}
+.shot{margin:14px 0 0}
+.shot img{width:100%;height:auto;border-radius:8px;border:1px solid var(--line);display:block}
+.certs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.certs figure{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px}
+.certs img{width:100%;height:auto;border-radius:6px;display:block}
+figcaption{font-size:.9rem;color:var(--muted);margin-top:8px}
+footer{margin-top:50px;padding:24px 0;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="me" src="images/photo.jpg" alt="Photo of Muhammad Musa Sayaya" onerror="this.hidden=true">
+    <h1>Muhammad Musa Sayaya</h1>
+    <p class="role">Computer Science Education student at Umaru Musa Yar'Adua University. I build simple web tools that make information easier to reach.</p>
+    <div class="btns">
+      <a class="btn main" href="#projects">See my project</a>
+      <a class="btn" href="#contact">Contact me</a>
+    </div>
+  </div>
+</header>
+
+<nav aria-label="Sections">
+  <div class="wrap">
+    <a href="#about">About</a>
+    <a href="#projects">Project</a>
+    <a href="#skills">Skills</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<section id="about">
+  <h2>About me</h2>
+  <p>I am a 300-level BSc (Ed) Computer Science Education student at Umaru Musa Yar'Adua University (UMYU), Katsina State, expected to graduate in 2027.</p>
+  <p>I have foundational programming and web development skills, hands-on experience in small business operations, and I serve as class captain and a public speaker. I want to grow into a software developer who builds useful digital solutions, especially in education technology.</p>
+</section>
+
+<section id="projects">
+  <h2>Project</h2>
+  <article class="card">
+    <h3>UMYU Mathematics and Computer Science Education Personal Portal</h3>
+    <p>A departmental portal that makes academic and departmental information easier for students to find. It includes student resources, a question-and-response feature, and a GPA calculator.</p>
+    <figure class="shot">
+      <img src="images/project.png" alt="Screenshot of the UMYU departmental portal" onerror="this.closest('figure').hidden=true">
+    </figure>
+    <ul class="tags" aria-label="Technologies used">
+      <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Firebase</li>
+    </ul>
+    <p><a href="https://muhammadmsayaya-prog.github.io/UMYU-FEDU-MCSED-PERSONAL-PORATL/">View live project</a> &nbsp;|&nbsp; <a href="https://github.com/muhammadmsayaya-prog">View code on GitHub</a></p>
+  </article>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><h3>Programming</h3><p>Python and C++ (foundational)</p></div>
+    <div><h3>Web development</h3><p>HTML, CSS, JavaScript</p></div>
+    <div><h3>Tools</h3><p>Firebase, GitHub</p></div>
+    <div><h3>Interests</h3><p>Web apps, educational technology, cybersecurity awareness</p></div>
+  </div>
+  <p>Training: Introduction to Cyber Security Awareness (HP LIFE).</p>
+</section>
+
+<section id="leadership">
+  <h2>Leadership and public speaking</h2>
+  <ul class="plain">
+    <li>Class Captain, 300 Level, UMYU: connects students with academic staff and shares class information.</li>
+    <li>Ameer, Mani Students Association, UMYUK Chapter, 2025/2026.</li>
+    <li>Speaker, Central Model Primary Old Students Association forum.</li>
+    <li>Speaker, CMP School Mani, Set of 2016.</li>
+  </ul>
+  <p>Work experience: communication centre, provision store, and building and construction activities, which taught me customer service, teamwork, and responsibility.</p>
+</section>
+
+<section id="certificates">
+  <h2>Certificates</h2>
+  <div class="certs">
+    <figure>
+      <img src="images/cert-1.jpg" alt="HP LIFE Introduction to Cyber Security Awareness certificate" onerror="this.closest('figure').hidden=true">
+      <figcaption>Introduction to Cyber Security Awareness (HP LIFE)</figcaption>
+    </figure>
+    <figure>
+      <img src="images/cert-2.jpg" alt="Speaker appointment certificate" onerror="this.closest('figure').hidden=true">
+      <figcaption>Speaker appointment certificate, 20 July 2026</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <a href="mailto:csed230755@students.umyu.edu.ng">csed230755@students.umyu.edu.ng</a>
+  <a href="https://wa.me/2348135299324">WhatsApp: 08135299324</a>
+  <a href="https://github.com/muhammadmsayaya-prog">GitHub: muhammadmsayaya-prog</a>
+  <p>Based in Mani, Katsina State, Nigeria.</p>
+</section>
+
+</main>
+
+<footer>&copy; 2026 Muhammad Musa Sayaya</footer>
+
+</body>
+</html>
